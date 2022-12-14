@@ -3,6 +3,7 @@ function isPalindrome(word) {
 
   let start = 0
   let end = word.length - 1
+
   while(start <= end){
     if(word[start] != word[end]){
       return false
@@ -15,6 +16,23 @@ function isPalindrome(word) {
   
 
 }
+
+
+/* 
+ pseudocode.
+ function isPalindrome(word)
+ declare a variable myWordStringReserved
+ let myString ==word.split(),
+ word.reserve(),
+ word.join();
+ return myWordStringReserved;
+*/
+
+/*
+  Add written explanation of your solution here
+*/
+
+// You can run `node index.js` to view these console logs
 if (require.main === module) {
   // add your own custom tests in here
   console.log("Expecting: true");
